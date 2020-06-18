@@ -1,0 +1,39 @@
+/* Можливості */
+.possibility-section,
+.clients-section,
+.portfolio-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.possibility-section__title,
+.team-section__title,
+.clients-section__title {
+  margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.possibility-section__item {
+  position: relative;
+  width: calc((100% - 60px) / 3);
+}
+
+.possibility-section__label {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: $primary-background-color;
+  background-color: $possibility-background-color;
+  padding-top: 27px;
+  padding-bottom: 27px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  text-align: center;
+}

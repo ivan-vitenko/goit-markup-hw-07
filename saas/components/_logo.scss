@@ -1,0 +1,27 @@
+@import '../utils/placeholders';
+
+/*Логотип*/
+.logo--header {
+  @extend %logo;
+  padding-top: 24px;
+  padding-bottom: 25px;
+
+  &:hover,
+  &:focus {
+    @extend .logo--header;
+  }
+}
+
+.logo-footer {
+  @extend %logo;
+  display: block;
+  color: $primary-background-color;
+  margin-bottom: 20px;
+  font-size: 22px;
+  line-height: 1.18;
+
+  &:hover,
+  &:focus {
+    @extend .logo-footer;
+  }
+}

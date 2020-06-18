@@ -1,0 +1,31 @@
+/* Переваги */
+.advantages-section {
+  padding-top: 94px;
+}
+
+.advantages-section__item {
+  width: calc((100% - 90px) / 4);
+}
+
+.advantages-section__icon {
+  @include flex($justify-content: center);
+  width: 100%;
+  height: 120px;
+  background-color: $portfolio-button;
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
+
+.advantages-section__icon--size {
+  width: 70px;
+  height: 70px;
+}
+
+.advantages-section__title {
+  margin-bottom: 10px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}

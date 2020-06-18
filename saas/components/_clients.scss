@@ -1,0 +1,50 @@
+/*Клієнти*/
+.clients-section__item {
+  width: calc((100% - 150px) / 6);
+}
+
+.clients-section__link {
+  @include flex($justify-content: center);
+  height: 90px;
+  fill: $socials-color;
+  border: 1px solid $socials-color;
+  border-radius: 4px;
+  transition: fill $duration-animation $timing-animation,
+    border-color $duration-animation $timing-animation;
+
+  &:hover,
+  &:focus {
+    fill: $accent-color;
+    border-color: $accent-color;
+  }
+}
+
+.clients-section__client-1 {
+  width: 44px;
+  height: 49px;
+}
+
+.clients-section__client-2 {
+  width: 40px;
+  height: 50px;
+}
+
+.clients-section__client-3 {
+  width: 41px;
+  height: 42px;
+}
+
+.clients-section__client-4 {
+  width: 80px;
+  height: 42px;
+}
+
+.clients-section__client-5 {
+  width: 59px;
+  height: 47px;
+}
+
+.clients-section__client-6 {
+  width: 88px;
+  height: 45px;
+}
